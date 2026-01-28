@@ -17,7 +17,7 @@ app.get('/', (req, res) => {
     'Apple',
     'Pear',
     'Cherry',
-  ]
+  ];
   res.render('index.njk', {name, age, fruits});
 });
 
@@ -27,6 +27,10 @@ app.get('/about', (req, res) => {
 
 app.get('/contact', (req, res) => {
   res.render('contact.njk');
+});
+
+app.get('/form', (req, res) => {
+  res.render('form.njk');
 });
 
 app.listen(port, () => {
