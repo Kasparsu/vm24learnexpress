@@ -2,7 +2,7 @@
 {% block title %}Form{% endblock %}
 {% block content %}
   <h1>Form</h1>
-  <form>
+  <form action="/answers">
     <div class="mb-3">
       <label for="name" class="form-label">Name</label>
       <input name="name" type="text" class="form-control" id="name" placeholder="Write your name">
@@ -29,24 +29,24 @@
     </div>
     <div class="mb-3">
       <p>Choose your starter pokemon</p>
-      <input name="pokemon" type="radio" class="form-check-input" id="bulbasaur">
+      <input name="pokemon" type="radio" class="form-check-input" id="bulbasaur" value="bulbasaur">
       <label for="bulbasaur" class="form-label">Bulbasaur</label>
-      <input name="pokemon" type="radio" class="form-check-input" id="squirtle">
+      <input name="pokemon" type="radio" class="form-check-input" id="squirtle" value="squirtle">
       <label for="squirtle" class="form-label">Squirtle</label>
-      <input name="pokemon" type="radio" class="form-check-input" id="charmander">
+      <input name="pokemon" type="radio" class="form-check-input" id="charmander" value="charmander">
       <label for="charmander" class="form-label">Charmander</label>
-      <input name="pokemon" type="radio" class="form-check-input" id="pikachu">
+      <input name="pokemon" type="radio" class="form-check-input" id="pikachu" value="pikachu">
       <label for="pikachu" class="form-label">Pikachu</label>
     </div>
     <div class="mb-3">
       <p>Food order</p>
-      <input name="food" type="checkbox" class="form-check-input" id="burger">
+      <input name="food" type="checkbox" class="form-check-input" id="burger" value="burger">
       <label for="burger" class="form-label">Burger</label>
-      <input name="food" type="checkbox" class="form-check-input" id="fries">
+      <input name="food" type="checkbox" class="form-check-input" id="fries" value="fries">
       <label for="fries" class="form-label">Fries</label>
-      <input name="food" type="checkbox" class="form-check-input" id="coke">
+      <input name="food" type="checkbox" class="form-check-input" id="coke" value="coke">
       <label for="coke" class="form-label">Coke</label>
-      <input name="food" type="checkbox" class="form-check-input" id="icecream">
+      <input name="food" type="checkbox" class="form-check-input" id="icecream" value="icecream">
       <label for="icecream" class="form-label">Icecream</label>
     </div>
     <div class="mb-3">
